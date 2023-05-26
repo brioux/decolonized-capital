@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:zktree-vote": "npm start --workspace=@decolonized-capital/zktree-vote"
+    "zktree-vote": "npm start --workspace=@decolonized-capital/zktree-vote",
+    "decap-vote": "npm start --workspace=@decolonized-capital/decap-vote"
   },
   "workspaces": {"packages": [
     "app/*",
