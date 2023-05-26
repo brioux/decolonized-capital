@@ -9,12 +9,12 @@
     "decap-vote": "npm start --workspace=@decolonized-capital/decap-vote"
   },
   "workspaces": {"packages": [
-    "app/*",
-    "hardhat"
+    "app/zktree-vote"
   ]},
   "type": "module",
   "dependencies": {
-    "parcel": "^2.8.2"
+    "parcel": "^2.8.2",
+    "parcel-reporter-static-files-copy": "^1.5.0"
   },
   "devDependencies": {
     "@typechain/hardhat": "^6.1.5",
