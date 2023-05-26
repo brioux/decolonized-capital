@@ -164,11 +164,11 @@ contract DeCapVote is ERC721, ERC721Votes, AccessControl{
 
     // Overrides IERC6372 functions to make the token & governor timestamp-based
 
-    function clock() public view returns (uint48) {
+    function clock() public view override returns (uint48) {
         return uint48(block.timestamp);
     }
 
-    function CLOCK_MODE() public pure returns (string memory) {
+    function CLOCK_MODE() public pure override returns (string memory) {
         return "mode=timestamp";
     }
 }

@@ -13,7 +13,7 @@ const config: HardhatUserConfig = {
 };
 
 // Uncomment and populate .ethereum-config.js if deploying contract to Goerli, Kovan, xDai, or verifying with Etherscan
-const ethereumConfig = require("./.ethereum-config");
+// const ethereumConfig = require("./.ethereum-config");
 
 module.exports = {
 
@@ -132,10 +132,10 @@ module.exports = {
 
     // Uncomment the following lines if deploying contract to Goerli or running Etherscan verification
     // Deploy with npx hardhat run --network goerli scripts/___.js
-    goerli: {
-      url: `https://goerli.infura.io/v3/${ethereumConfig.INFURA_PROJECT_ID}`,
-      accounts: [`0x${ethereumConfig.CONTRACT_OWNER_PRIVATE_KEY}`,`0x${ethereumConfig.VERIFIER_PRIVATE_KEY}`]
-    },
+    // goerli: {
+    //   url: `https://goerli.infura.io/v3/${ethereumConfig.INFURA_PROJECT_ID}`,
+    //   accounts: [`0x${ethereumConfig.CONTRACT_OWNER_PRIVATE_KEY}`,`0x${ethereumConfig.VERIFIER_PRIVATE_KEY}`]
+    // },
 
     // Uncomment the following lines if deploying contract to Mumbai or running Etherscan verification
     // Deploy with npx hardhat run --network mumbai scripts/___.js
