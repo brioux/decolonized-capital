@@ -1,0 +1,38 @@
+{
+  "name": "decolonized-capital",
+  "version": "0.0.1",
+  "description": "Voting and asset tokenization contracts for Decolonized Capital",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:zktree-vote": "npm start --workspace=@decolonized-capital/zktree-vote"
+  },
+  "workspaces": {"packages": [
+    "app/*",
+    "hardhat"
+  ]},
+  "type": "module",
+  "dependencies": {
+    "parcel": "^2.8.2"
+  },
+  "devDependencies": {
+    "@typechain/hardhat": "^6.1.5",
+    "hardhat": "^2.12.6",
+    "ts-node": "^10.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brioux/decolonized-capital.git"
+  },
+  "keywords": [
+    "Indigineous",
+    "Captial",
+    "Voting"
+  ],
+  "author": "bertrand.rioux@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brioux/decolonized-capital/issues"
+  },
+  "homepage": "https://github.com/brioux/decolonized-capital#readme"
+}

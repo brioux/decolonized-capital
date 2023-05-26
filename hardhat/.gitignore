@@ -1,0 +1,6 @@
+/artifacts/
+/build/
+/cache/
+/keys/
+/typechain-types/
+.ethereum.config.js

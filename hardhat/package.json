@@ -1,0 +1,43 @@
+{
+  "name": "@decolonized-capital/hardhat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hardhat node",
+    "prettier": "prettier --write 'solidity/**/*.sol'",
+    "lint": "prettier --list-different 'solidity/**/*.sol'",
+    "test": "hardhat test",
+    "prepare": "sh scripts/prepare.sh"
+  },
+  "author": "bertrand.rioux@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.5",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@nomiclabs/hardhat-solhint": "^3.0.1",
+    "@openzeppelin/hardhat-upgrades": "^1.18.3",
+    "@typechain/hardhat": "^6.1.5",
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "chai": "4.3.6",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.12.6",
+    "hardhat-deploy": "^0.11.29",
+    "mocha": "^10.2.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "1.1.3",
+    "solidity-coverage": "^0.7.22",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "bootstrap": "^5.2.3",
+    "circomlib": "^2.0.5",
+    "circomlibjs": "^0.1.7",
+    "zk-merkle-tree": "^1.0.2"
+  }
+}

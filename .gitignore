@@ -1,0 +1,8 @@
+*.DS_Store
+.env
+minifab/
+node_modules
+dist
+yarn.lock
+package-lock.json
+/.parcel-cache/
