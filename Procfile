@@ -1,1 +1,1 @@
-web: npm install -g serve; npm run decap-vote
+web: npm run decap-vote

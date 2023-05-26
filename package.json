@@ -9,8 +9,7 @@
     "decap-vote": "npm start --workspace=@decolonized-capital/decap-vote"
   },
   "workspaces": {"packages": [
-    "app/*",
-    "hardhat"
+    "app/decap-vote"
   ]},
   "type": "module",
   "dependencies": {
