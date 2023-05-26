@@ -7,7 +7,7 @@
           <h1>Decolonized Capital </h1>
           <h2>Public Voter Registry</h2>
           <div>Number of registered votes: <span v-html="tokenBalance"/> </div>
-          <a href="#/issue" class="btn btn-primary">Issue Vote</a>
+          <a href="#/register" class="btn btn-primary">Register Vote</a>
         </div>
       </div>
     </div>

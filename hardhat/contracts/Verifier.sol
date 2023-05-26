@@ -175,6 +175,7 @@ contract Verifier {
         Pairing.G2Point B;
         Pairing.G1Point C;
     }
+    constructor() {}
     function verifyingKey() internal pure returns (VerifyingKey memory vk) {
         vk.alfa1 = Pairing.G1Point(
             20491192805390485299153009773594534940189261866228447918068658471970481763042,

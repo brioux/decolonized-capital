@@ -6,7 +6,7 @@
 import { Component, Vue } from "vue-facing-decorator";
 
 import Home from "./Home.vue";
-import Issue from "./Issue.vue";
+import Register from "./Register.vue";
 
 @Component
 export default class App extends Vue {
@@ -25,7 +25,7 @@ export default class App extends Vue {
   getMainComponent() {
     const currentPath = this.locationHash.slice(1) || "/";
     if (currentPath == "/") return Home;
-    if (currentPath == "/issue") return Issue;
+    if (currentPath == "/register") return Register;
   }
 }
 </script>

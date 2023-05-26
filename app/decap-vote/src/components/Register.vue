@@ -4,11 +4,11 @@
     <div class="row justify-content-md-center">
       <div class="col-lg-4">
         <div class="text-center vstack gap-3">
-          <h1>Issue Public Vote</h1>
+          <h1>Register Public Vote</h1>
           
           <label for="reader">
             Generate hash of voter's artwork
-            <p>Each vote is registered as an NFT that can include a hash to any digital media file</p>
+            <p>Each vote is registered as an NFT that can include the hash of a digital media file</p>
             <input id="reader" width="400px" type="file">
           </label>
           
@@ -86,7 +86,7 @@ export default class Issue extends Vue {
       return;
     }
     this.uniqueHashBuffer = keccak256(Buffer.from(this.uniqueHash));
-    
+
     const contractView = new ethers.Contract(contracts.decapvote, ['function getTokenId(bytes32 _hash) public view returns (uint256)'], provider)
     this.tokenId = await contractView.getTokenId(this.uniqueHashBuffer);
 

@@ -11,11 +11,12 @@
   "dependencies": {
     "bootstrap": "^5.2.3",
     "copy-to-clipboard": "^3.3.3",
+    "ethers": "^5.6.8",
     "html5-qrcode": "^2.3.4",
     "parcel": "^2.8.2",
     "qrcode": "^1.5.1",
     "vue-facing-decorator": "^2.1.13",
-    "ethers": "^5.6.8"
+    "zk-merkle-tree": "^1.0.2"
   },
   "devDependencies": {
     "@parcel/transformer-vue": "^2.8.2",

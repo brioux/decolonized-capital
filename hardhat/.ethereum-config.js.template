@@ -3,10 +3,10 @@
 
 // Replace with the private key of your deployer address
 exports.CONTRACT_OWNER_PRIVATE_KEY = "";
-
+exports.VERIFIER_PRIVATE_KEY = "";
 // Used to make a JSON RPC connection for deploying to custom networks
 // Get a free key at https://infura.io/
-exports.INFURA_PROJECT_ID = "wss://goerli.infura.io/ws/v3/[insert your key]";
+exports.INFURA_PROJECT_ID = "[insert your key]";
 
 // Only required when running Etherscan contract verification
 // See https://hardhat.org/plugins/nomiclabs-hardhat-etherscan.html
