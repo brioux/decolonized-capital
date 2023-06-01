@@ -9,5 +9,5 @@ These contracts are intended primarily for education of DC users:
     - Submitting community proposals 
     - Voting on and approving proposals 
     
-2. Linking DC members artwork to the NFTs used to register votes
+2. Linking member artwork to the NFTs used to register votes
 
